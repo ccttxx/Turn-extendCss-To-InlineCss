@@ -62,3 +62,11 @@ function turnCssToInline(a){
 	});	
 	}）
 }
+
+
+
+//the dom should add parent node
+if($("#r").length == 0){
+			$("#report1").after("<div id='r'></div>");
+			$("#r").append($("#report1"));
+}
